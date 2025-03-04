@@ -11,7 +11,7 @@ const Supervisor = () => {
           </p>
         </div>
         <img className={styles.icon}
-          src="src/assets/images/icon-supervisor.svg"
+          src="./images/icon-supervisor.svg"
           alt="Image of Supervisor icon"
         />
       </section>
