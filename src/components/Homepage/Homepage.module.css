@@ -1,0 +1,74 @@
+.container {
+  display: grid;
+  width: 80%;
+  justify-self: center;
+  margin-top: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.headers {
+  margin-bottom: 1rem;
+}
+
+.title {
+  color: hsl(212, 6%, 44%);
+  font-weight: 200;
+}
+
+.subTitle {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+}
+
+.description {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 2rem;
+  font-size: 0.938;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 1000px) {
+
+  .headers {
+    margin-top: 1rem;
+    justify-self: center;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  .description {
+    justify-self: center;
+    max-width: 40%;
+    text-align: center;
+  }
+  .cardContainer {
+    display: grid;
+    width: 80%;
+    justify-self: center;
+    gap: 2rem;
+    grid-template: repeat(4, 1fr) / repeat(3, 1fr);;
+  }
+
+  .supervisor {
+    grid-area: 2/ 1/ span 2/ span 1;
+
+  }
+
+  .karma {
+    grid-area: 3 / 2/ span 2 / span 1;
+  }
+
+  .teamBuilder {
+    grid-area: 1/ 2/ span 2/ span 1;
+  }
+
+  .calculator {
+    grid-area: 2/ 3/ span 2 / span 1;
+  }
+}
