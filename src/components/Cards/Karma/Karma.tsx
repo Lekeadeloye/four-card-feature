@@ -9,7 +9,7 @@ const Karma = () => {
           <p className={styles.description}>Regularly evaluates our talent to ensure quality</p>
         </div>
         <img className={styles.icon}
-          src="/src/assets/images/icon-karma.svg"
+          src="src/assets/images/icon-karma.svg"
           alt="Image of Karma icon"
         />
       </section>
