@@ -11,7 +11,7 @@ const Calculator = () => {
           </p>
         </div>
         <img className={styles.icon}
-          src="/src/assets/images/icon-calculator.svg"
+          src="./src/assets/images/icon-calculator.svg"
           alt="Image of Calculator icon"
         />
       </section>

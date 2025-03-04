@@ -11,7 +11,7 @@ const TeamBuilder = () => {
           </p>
         </div>
         <img className={styles.icon}
-          src="/src/assets/images/icon-team-builder.svg"
+          src="./src/assets/images/icon-team-builder.svg"
           alt="Image of Team-Builder icon"
         />
       </section>
