@@ -81,7 +81,6 @@ I will continue to practice with using css grid as an alternative to flexbox. I 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@Lekeadeloye](https://www.frontendmentor.io/profile/yourusername)
 - LinkedIn - [Leke Adeloye](https://www.linkedin.com/in/leke-adeloye)
 
