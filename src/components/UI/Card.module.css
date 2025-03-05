@@ -1,5 +1,5 @@
 .cardContainer {
-  border-top: 5px hsl(180, 62%, 55%) solid;
+  /* border-top: 5px hsl(180, 62%, 55%) solid; */
   border-radius: 1rem;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
